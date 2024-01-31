@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    margin: 0px;
+    padding: 0px;
+}
+nevbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+}
+
+.name {
+    padding: 20px;
+    font-size: 20px;
+}
+
+nevbar img {
+    height: 62px;
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul li {
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.songall {
+    margin: 100px 20px 20px 20px;
+    padding: 20px;
+    border: solid white;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(11 11 11);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.song {
+    margin: 50px;
+    padding: 0px 0px 5px 0px;
+    display: inline;
+    border-radius: 10px;
+}
+
+.searchbar{
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border: solid white;
+    border-radius: 15px;
+    background-color: black;
+}
+.song img {
+    border-radius: 10px;
+    height: 200px;
+    display: block;
+}
+
+.sname {
+    width: 200px;
+}
+
+.song:hover{
+    box-shadow: 0px 0px 20px rgb(206, 206, 206);
+}
+
+.playbar {
+    background-color: black;
+    width: 98.7vw;
+    height: 80px;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playbar input {
+    width: 80vw;
+    height: 3px;
+}
+
+#playbar{
+    cursor: pointer;
+}
+
+.play {
+    text-align: inherit;
+}
+
+.material-symbols-outlined {
+    margin: 5px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.sn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    justify-content: end;
+    width: 80%;
+    height: 45px;
+}
+
+#gif {
+    height: 15px;
+    margin-right: 10px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.volume{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+#vol{
+    width: 100px;
+    cursor: pointer;
+}
+
+#mic{
+    margin-left: 18px;
+    padding: 4px 4px 4px 4px;
+    transition: all 0.2s ease-in-out;
+}
+#mic:hover{
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+    scale: 1.2s;
+}
