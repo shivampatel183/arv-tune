@@ -3,11 +3,13 @@
     padding: 0px;
     color: white;
 }
-body{
+
+body {
     background-color: rgb(27, 27, 27);
     margin: 0px;
     padding: 0px;
 }
+
 nevbar {
     display: flex;
     flex-direction: row;
@@ -60,7 +62,7 @@ ul li {
     border-radius: 10px;
 }
 
-.searchbar{
+.searchbar {
     outline: none;
     border: none;
     padding: 5px 20px;
@@ -68,6 +70,7 @@ ul li {
     border-radius: 15px;
     background-color: black;
 }
+
 .song img {
     border-radius: 10px;
     height: 200px;
@@ -78,7 +81,7 @@ ul li {
     width: 200px;
 }
 
-.song:hover{
+.song:hover {
     box-shadow: 0px 0px 20px rgb(206, 206, 206);
 }
 
@@ -99,7 +102,7 @@ ul li {
     height: 3px;
 }
 
-#playbar{
+#playbar {
     cursor: pointer;
 }
 
@@ -130,7 +133,7 @@ ul li {
     transition: all 0.3s ease-in-out;
 }
 
-.volume{
+.volume {
     width: 50%;
     display: flex;
     justify-content: flex-end;
@@ -138,18 +141,72 @@ ul li {
     align-items: center;
 }
 
-#vol{
+#vol {
     width: 100px;
     cursor: pointer;
 }
 
-#mic{
+#mic {
     margin-left: 18px;
     padding: 4px 4px 4px 4px;
     transition: all 0.2s ease-in-out;
 }
-#mic:hover{
+
+#mic:hover {
     border-radius: 20px;
     background-color: rgb(33, 33, 33);
     scale: 1.2s;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    nevbar img {
+        height: 32px;
+        margin-left: 10px;
+    }
+
+    .name {
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    ul li {
+        margin: 10px;
+        font-size: 10px;
+    }
+
+    .searchbar {
+        padding: 5px 10px;
+        border-radius: 15px;
+        width: 80px;
+    }
+    
+    .sn {
+        font-size: 10px;
+        width: 100%;
+        height: 45px;
+    }
+
+    #vol {
+        width: 50px;
+    }
+    .play {
+        display: inline;
+    }
+    .volume {
+        width: 24%;
+        padding: 0px 5px;
+    }
+    #mic {
+        margin-left: 6px;
+        padding:2px;
+    }
+    #gif {
+        margin-right: 5px;
+    }
+    
 }
