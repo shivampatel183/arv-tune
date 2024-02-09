@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <linkrel="icon" type="image/x-icon" href="./static/photo/back.png">
+    <link rel="stylesheet" href="./pl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>ARV tune</title>
+</head>
+
+<body>
+    <nevbar class="navbar">
+        <img src="./static/photo/photo1.png" alt="">
+        <div class="name">ARV tune</div>
+        <ul class="nev">
+            <li>Home</li>
+            <li>About</li>
+            <li><input type="text" class="searchbar" placeholder="&#128270; Search Songs" onchange="search()"
+                    onkeypress="search()"></li>
+        </ul>
+    </nevbar>
+
+<div class="main">
+    <div class="part1">
+        <img src="./static/photo/m9.jpg" alt="">
+        <div class="plname">
+            <h1>Today's Top Hits</h1>
+            <h4>Rema & Selena Gomez are on top of the...</h4>
+        </div>
+    </div>
+    <div class="songall">
+        <div class="song"><img src="./static/photo/m1.jpg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="1">play_circle</i></span>
+        </div>
+        <div class="song"><img src="./static/photo/m2.jpg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="2">play_circle</i></span>
+        </div>
+        <div class="song"><img src="./static/photo/m3.jpg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="3">play_circle</i></span>
+        </div>
+        <div class="song"><img src="./static/photo/m7.jpeg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="7">play_circle</i></span>
+        </div>
+        <div class="song"><img src="./static/photo/m8.jpeg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="8">play_circle</i></span>
+        </div>
+        <div class="song"><img src="./static/photo/m9.jpeg" alt="1">
+            <div class="sname"></div>
+            <span class="playsongs"><i class="material-symbols-outlined" id="9">play_circle</i></span>
+        </div>
+
+    </div>
+    </div>
+</div>
+
+
+    <div class="playbar">
+        <input type="range" value="0" id="playbar" min="0" max="100">
+        <div class="sn">
+            <img src="./static/photo/Z23b.gif" alt="" id="gif">
+            <div id="snb" class="songname">Besaram Rang-Pathaan</div>
+            <div class="volume">
+                <span><i class="material-symbols-outlined" id="volu">volume_up</i></span>
+                <input type="range" value="1" class="voll" id="vol" min="0" max="1" step=".01"
+                    onchange="changevolume(this.value)">
+            </div>
+            <div class="play">
+                <span class="previous"><i class="material-symbols-outlined" id="pervioussong">skip_previous</i></span>
+                <span class="playsong"><i class="material-symbols-outlined" id="play">play_circle</i></span>
+                <span class="next"><i class="material-symbols-outlined" id="nextsong">skip_next</i></span>
+            </div>
+            <span class="material-symbols-outlined" id="mic">mic</span>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./static/music.js"></script>
+</body>
+</html>

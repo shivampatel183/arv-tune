@@ -23,12 +23,12 @@ let song = [
     { songname: "Jai Shri Ram Adipurush", filepath: "4.mp3", },
     { songname: "Still Rollin-Subh", filepath: "5.mp3", },
     { songname: "Nachan Nu Jee Karda - Angrezi Medium", filepath: "6.mp3", },
-    { songname: "Obsessed_(PaglaSongs)", filepath: "7.mp3", },
+    { songname: "Obsessed (PaglaSongs)", filepath: "7.mp3", },
     { songname: "Raataan Lambiyan", filepath: "8.mp3", },
     { songname: "Ram Siya Ram Adipurush", filepath: "9.mp3", },
-    { songname: "Saanjah-(SongsPK)", filepath: "10.mp3", },
-    { songname: "Tere Vaaste-(SongsPK)", filepath: "11.mp3", },
-    { songname: "Yadav-Brand-2(PaglaSongs)", filepath: "12.mp3", },
+    { songname: "Saanjah (SongsPK)", filepath: "10.mp3", },
+    { songname: "Tere Vaaste (SongsPK)", filepath: "11.mp3", },
+    { songname: "Yadav-Brand-2 (PaglaSongs)", filepath: "12.mp3", },
 ]
 
 songItem.forEach((element, i) => {
