@@ -151,9 +151,12 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    border-radius: 10px;
+    height: 232px;
+    padding-left: 30px;
 }
 .part1 img{
-    height: 220px;
+    height: 200px;
     border-radius: 10px
 }
 .plname{
@@ -182,6 +185,7 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     border-radius: 10px;
+    opacity: 0.9;
     background-color: #181818;
     transition: all 0.3s ease-in-out;
     padding: 10px;
@@ -202,4 +206,5 @@ h1{
 
 .song:hover {
     background-color: #252525;
+    opacity: 0.9;
 }
